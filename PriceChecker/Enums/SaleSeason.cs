@@ -1,0 +1,2 @@
+﻿public enum SaleSeason { Normal2018=9, Low2018=0, High2018=1, Peak2018=2, FullSeason2018 = 3, Normal2019=10, Low2019 = 4, High2019=5, Peak2019=6, FullSeason2019=7, FullTime=8, PeakInLowSeason2018=11
+, PeakInHighSeason2018=12, Promotion2018=13, SurchargeHoliday2018=14, SurchargeHoliday2019=15}

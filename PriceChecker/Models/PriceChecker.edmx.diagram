@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="375572dce85944ec85da4e25bfed1dbc" Name="Diagram1" ZoomLevel="78">
+        <EntityTypeShape EntityType="PriceCheckerModel.ElementLabel" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PriceCheckerModel.WebAction" Width="1.5" PointX="5.625" PointY="0.75" />
+        <AssociationConnector Association="PriceCheckerModel.FK_ElementLabels_WebActions" />
+        <EntityTypeShape EntityType="PriceCheckerModel.AllotmentRecord" Width="1.5" PointX="3" PointY="8" />
+        <EntityTypeShape EntityType="PriceCheckerModel.RoomType" Width="1.5" PointX="5.375" PointY="12" />
+        <EntityTypeShape EntityType="PriceCheckerModel.City" Width="1.5" PointX="3.125" PointY="11.75" />
+        <EntityTypeShape EntityType="PriceCheckerModel.AllotmentRoomType" Width="1.5" PointX="0.75" PointY="8.125" />
+        <AssociationConnector Association="PriceCheckerModel.FK_AllotmentRecords_AllotmentBoardTypes1" />
+        <EntityTypeShape EntityType="PriceCheckerModel.ContractRoom" Width="1.5" PointX="7.625" PointY="13.125" />
+        <EntityTypeShape EntityType="PriceCheckerModel.Hotel" Width="1.5" PointX="3.125" PointY="17" />
+        <AssociationConnector Association="PriceCheckerModel.FK_ContractRooms_Hotels" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

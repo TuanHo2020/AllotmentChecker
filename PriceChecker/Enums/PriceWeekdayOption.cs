@@ -1,0 +1,1 @@
+﻿public enum PriceWeekDayOption { All=0, Weekday=1, Weekend =2}

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PriceCheckerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ElementLabel">
+    <Key>
+      <PropertyRef Name="LabelId" />
+    </Key>
+    <Property Name="LabelId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LabelName" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ActionId" Type="Int32" Nullable="false" />
+    <Property Name="ExpectedBehavior" Type="Int32" Nullable="false" />
+    <Property Name="LabelOrder" Type="Int32" Nullable="false" />
+    <Property Name="XPath" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="WaitSeconds" Type="Int32" Nullable="false" />
+    <Property Name="WaitType" Type="Int32" Nullable="false" />
+    <Property Name="ExpectedResultType" Type="Int32" Nullable="false" />
+    <Property Name="ResultXPath" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SetCurrentElement" Type="Boolean" Nullable="false" />
+    <Property Name="OffX" Type="Int32" Nullable="false" />
+    <Property Name="OffY" Type="Int32" Nullable="false" />
+    <Property Name="CustomData" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="WebAction" Relationship="PriceCheckerModel.FK_ElementLabels_WebActions" FromRole="ElementLabel" ToRole="WebAction" />
+    <Property Name="InputDataKey" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ReturnDataKey" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="PriceCheckerEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ElementLabels" EntityType="Self.ElementLabel" />
+    <EntitySet Name="WebActions" EntityType="PriceCheckerModel.WebAction" />
+    <AssociationSet Name="FK_ElementLabels_WebActions" Association="PriceCheckerModel.FK_ElementLabels_WebActions">
+      <End Role="WebAction" EntitySet="WebActions" />
+      <End Role="ElementLabel" EntitySet="ElementLabels" />
+    </AssociationSet>
+    <EntitySet Name="AllotmentRecords" EntityType="PriceCheckerModel.AllotmentRecord" />
+    <EntitySet Name="RoomTypes" EntityType="PriceCheckerModel.RoomType" />
+    <EntitySet Name="Cities" EntityType="PriceCheckerModel.City" />
+    <EntitySet Name="AllotmentRoomTypes" EntityType="PriceCheckerModel.AllotmentRoomType" />
+    <AssociationSet Name="FK_AllotmentRecords_AllotmentBoardTypes1" Association="PriceCheckerModel.FK_AllotmentRecords_AllotmentBoardTypes1">
+      <End Role="AllotmentRoomType" EntitySet="AllotmentRoomTypes" />
+      <End Role="AllotmentRecord" EntitySet="AllotmentRecords" />
+    </AssociationSet>
+    <EntitySet Name="ContractRooms" EntityType="PriceCheckerModel.ContractRoom" />
+    <EntitySet Name="Hotels" EntityType="PriceCheckerModel.Hotel" />
+    <AssociationSet Name="FK_ContractRooms_Hotels" Association="PriceCheckerModel.FK_ContractRooms_Hotels">
+      <End Role="Hotel" EntitySet="Hotels" />
+      <End Role="ContractRoom" EntitySet="ContractRooms" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="WebAction">
+    <Key>
+      <PropertyRef Name="ActionId" />
+    </Key>
+    <Property Name="ActionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ActionName" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ElementLabels" Relationship="PriceCheckerModel.FK_ElementLabels_WebActions" FromRole="WebAction" ToRole="ElementLabel" />
+  </EntityType>
+  <Association Name="FK_ElementLabels_WebActions">
+    <End Type="PriceCheckerModel.WebAction" Role="WebAction" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="PriceCheckerModel.ElementLabel" Role="ElementLabel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WebAction">
+        <PropertyRef Name="ActionId" />
+      </Principal>
+      <Dependent Role="ElementLabel">
+        <PropertyRef Name="ActionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="AllotmentRecord">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Name="RecordId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AllotmentDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CurrentAllotment" Type="Int32" Nullable="false" />
+    <Property Name="Acknowledged" Type="Boolean" Nullable="false" />
+    <Property Name="AllotmentRoomTypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AllotmentRoomType1" Relationship="PriceCheckerModel.FK_AllotmentRecords_AllotmentBoardTypes1" FromRole="AllotmentRecord" ToRole="AllotmentRoomType" />
+  </EntityType>
+  <EntityType Name="RoomType">
+    <Key>
+      <PropertyRef Name="RoomTypeId" />
+    </Key>
+    <Property Name="RoomTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomTypeName" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Name="CityId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CityName" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CityCode" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="HasAirport" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AllotmentRoomType">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Name="RecordId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomName" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="HotelId" Type="Int32" Nullable="false" />
+    <Property Name="DefaultAllotment" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AllotmentRecords1" Relationship="PriceCheckerModel.FK_AllotmentRecords_AllotmentBoardTypes1" FromRole="AllotmentRoomType" ToRole="AllotmentRecord" />
+    <Property Name="IgnoreThisRoomType" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AllotmentRecords_AllotmentBoardTypes1">
+    <End Type="PriceCheckerModel.AllotmentRoomType" Role="AllotmentRoomType" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="PriceCheckerModel.AllotmentRecord" Role="AllotmentRecord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AllotmentRoomType">
+        <PropertyRef Name="RecordId" />
+      </Principal>
+      <Dependent Role="AllotmentRecord">
+        <PropertyRef Name="AllotmentRoomTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ContractRoom">
+    <Key>
+      <PropertyRef Name="RoomId" />
+    </Key>
+    <Property Name="RoomId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomName" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="HotelId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Hotel" Relationship="PriceCheckerModel.FK_ContractRooms_Hotels" FromRole="ContractRoom" ToRole="Hotel" />
+  </EntityType>
+  <EntityType Name="Hotel">
+    <Key>
+      <PropertyRef Name="HotelId" />
+    </Key>
+    <Property Name="HotelId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HotelName" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="IsDuplicated" Type="Boolean" Nullable="false" />
+    <Property Name="HMSID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CheckAllotment" Type="Boolean" Nullable="false" />
+    <Property Name="CityId" Type="Int32" Nullable="false" />
+    <Property Name="StarRating" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ContractValidTo" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="ContractRooms" Relationship="PriceCheckerModel.FK_ContractRooms_Hotels" FromRole="Hotel" ToRole="ContractRoom" />
+    <Property Name="ContractValidFrom" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MinCutOffDates" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ContractRooms_Hotels">
+    <End Type="PriceCheckerModel.Hotel" Role="Hotel" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="PriceCheckerModel.ContractRoom" Role="ContractRoom" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hotel">
+        <PropertyRef Name="HotelId" />
+      </Principal>
+      <Dependent Role="ContractRoom">
+        <PropertyRef Name="HotelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,1 @@
+﻿public enum HotelType {HitAgodaHotel = 0, HitHotel = 1, AgodaHotel = 2 }

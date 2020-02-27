@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PriceCheckerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AllotmentRecords">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Name="RecordId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AllotmentDate" Type="datetime" Nullable="false" />
+    <Property Name="CurrentAllotment" Type="int" Nullable="false" />
+    <Property Name="Acknowledged" Type="bit" Nullable="false" />
+    <Property Name="AllotmentRoomTypeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AllotmentRoomTypes">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Name="RecordId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoomName" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="HotelId" Type="int" Nullable="false" />
+    <Property Name="DefaultAllotment" Type="int" Nullable="false" />
+    <Property Name="IgnoreThisRoomType" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Name="CityId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CityName" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="CityCode" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="HasAirport" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContractRooms">
+    <Key>
+      <PropertyRef Name="RoomId" />
+    </Key>
+    <Property Name="RoomId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoomName" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="HotelId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ElementLabels">
+    <Key>
+      <PropertyRef Name="LabelId" />
+    </Key>
+    <Property Name="LabelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LabelName" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="ActionId" Type="int" Nullable="false" />
+    <Property Name="ExpectedBehavior" Type="int" Nullable="false" />
+    <Property Name="LabelOrder" Type="int" Nullable="false" />
+    <Property Name="InputDataKey" Type="varchar" MaxLength="200" />
+    <Property Name="ReturnDataKey" Type="varchar" MaxLength="200" />
+    <Property Name="XPath" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="WaitSeconds" Type="int" Nullable="false" />
+    <Property Name="WaitType" Type="int" Nullable="false" />
+    <Property Name="ExpectedResultType" Type="int" Nullable="false" />
+    <Property Name="ResultXPath" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="SetCurrentElement" Type="bit" Nullable="false" />
+    <Property Name="OffX" Type="int" Nullable="false" />
+    <Property Name="OffY" Type="int" Nullable="false" />
+    <Property Name="CustomData" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Hotels">
+    <Key>
+      <PropertyRef Name="HotelId" />
+    </Key>
+    <Property Name="HotelId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HotelName" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="IsDuplicated" Type="bit" Nullable="false" />
+    <Property Name="HMSID" Type="varchar" MaxLength="50" />
+    <Property Name="CheckAllotment" Type="bit" Nullable="false" />
+    <Property Name="CityId" Type="int" Nullable="false" />
+    <Property Name="StarRating" Type="money" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="ContractValidTo" Type="datetime" Nullable="false" />
+    <Property Name="ContractValidFrom" Type="datetime" Nullable="false" />
+    <Property Name="MinCutOffDates" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RoomTypes">
+    <Key>
+      <PropertyRef Name="RoomTypeId" />
+    </Key>
+    <Property Name="RoomTypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoomTypeName" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WebActions">
+    <Key>
+      <PropertyRef Name="ActionId" />
+    </Key>
+    <Property Name="ActionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ActionName" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AllotmentRecords_AllotmentBoardTypes">
+    <End Role="AllotmentRoomTypes" Type="Self.AllotmentRoomTypes" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AllotmentRecords" Type="Self.AllotmentRecords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AllotmentRoomTypes">
+        <PropertyRef Name="RecordId" />
+      </Principal>
+      <Dependent Role="AllotmentRecords">
+        <PropertyRef Name="AllotmentRoomTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ContractRooms_Hotels">
+    <End Role="Hotels" Type="Self.Hotels" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ContractRooms" Type="Self.ContractRooms" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hotels">
+        <PropertyRef Name="HotelId" />
+      </Principal>
+      <Dependent Role="ContractRooms">
+        <PropertyRef Name="HotelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ElementLabels_WebActions">
+    <End Role="WebActions" Type="Self.WebActions" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ElementLabels" Type="Self.ElementLabels" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WebActions">
+        <PropertyRef Name="ActionId" />
+      </Principal>
+      <Dependent Role="ElementLabels">
+        <PropertyRef Name="ActionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PriceCheckerModelStoreContainer">
+    <EntitySet Name="AllotmentRecords" EntityType="Self.AllotmentRecords" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AllotmentRoomTypes" EntityType="Self.AllotmentRoomTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContractRooms" EntityType="Self.ContractRooms" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ElementLabels" EntityType="Self.ElementLabels" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Hotels" EntityType="Self.Hotels" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RoomTypes" EntityType="Self.RoomTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WebActions" EntityType="Self.WebActions" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AllotmentRecords_AllotmentBoardTypes" Association="Self.FK_AllotmentRecords_AllotmentBoardTypes">
+      <End Role="AllotmentRoomTypes" EntitySet="AllotmentRoomTypes" />
+      <End Role="AllotmentRecords" EntitySet="AllotmentRecords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ContractRooms_Hotels" Association="Self.FK_ContractRooms_Hotels">
+      <End Role="Hotels" EntitySet="Hotels" />
+      <End Role="ContractRooms" EntitySet="ContractRooms" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ElementLabels_WebActions" Association="Self.FK_ElementLabels_WebActions">
+      <End Role="WebActions" EntitySet="WebActions" />
+      <End Role="ElementLabels" EntitySet="ElementLabels" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

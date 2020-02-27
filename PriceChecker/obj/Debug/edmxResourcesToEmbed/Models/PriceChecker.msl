@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PriceCheckerModelStoreContainer" CdmEntityContainer="PriceCheckerEntities">
+    <EntitySetMapping Name="ElementLabels">
+      <EntityTypeMapping TypeName="PriceCheckerModel.ElementLabel">
+        <MappingFragment StoreEntitySet="ElementLabels">
+          <ScalarProperty Name="ReturnDataKey" ColumnName="ReturnDataKey" />
+          <ScalarProperty Name="InputDataKey" ColumnName="InputDataKey" />
+          <ScalarProperty Name="CustomData" ColumnName="CustomData" />
+          <ScalarProperty Name="LabelId" ColumnName="LabelId" />
+          <ScalarProperty Name="LabelName" ColumnName="LabelName" />
+          <ScalarProperty Name="ActionId" ColumnName="ActionId" />
+          <ScalarProperty Name="ExpectedBehavior" ColumnName="ExpectedBehavior" />
+          <ScalarProperty Name="LabelOrder" ColumnName="LabelOrder" />
+          <ScalarProperty Name="XPath" ColumnName="XPath" />
+          <ScalarProperty Name="WaitSeconds" ColumnName="WaitSeconds" />
+          <ScalarProperty Name="WaitType" ColumnName="WaitType" />
+          <ScalarProperty Name="ExpectedResultType" ColumnName="ExpectedResultType" />
+          <ScalarProperty Name="ResultXPath" ColumnName="ResultXPath" />
+          <ScalarProperty Name="SetCurrentElement" ColumnName="SetCurrentElement" />
+          <ScalarProperty Name="OffX" ColumnName="OffX" />
+          <ScalarProperty Name="OffY" ColumnName="OffY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WebActions">
+      <EntityTypeMapping TypeName="PriceCheckerModel.WebAction">
+        <MappingFragment StoreEntitySet="WebActions">
+          <ScalarProperty Name="ActionName" ColumnName="ActionName" />
+          <ScalarProperty Name="ActionId" ColumnName="ActionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AllotmentRecords">
+      <EntityTypeMapping TypeName="PriceCheckerModel.AllotmentRecord">
+        <MappingFragment StoreEntitySet="AllotmentRecords">
+          <ScalarProperty Name="AllotmentRoomTypeId" ColumnName="AllotmentRoomTypeId" />
+          <ScalarProperty Name="Acknowledged" ColumnName="Acknowledged" />
+          <ScalarProperty Name="CurrentAllotment" ColumnName="CurrentAllotment" />
+          <ScalarProperty Name="AllotmentDate" ColumnName="AllotmentDate" />
+          <ScalarProperty Name="RecordId" ColumnName="RecordId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoomTypes">
+      <EntityTypeMapping TypeName="PriceCheckerModel.RoomType">
+        <MappingFragment StoreEntitySet="RoomTypes">
+          <ScalarProperty Name="RoomTypeName" ColumnName="RoomTypeName" />
+          <ScalarProperty Name="RoomTypeId" ColumnName="RoomTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="PriceCheckerModel.City">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="HasAirport" ColumnName="HasAirport" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AllotmentRoomTypes">
+      <EntityTypeMapping TypeName="PriceCheckerModel.AllotmentRoomType">
+        <MappingFragment StoreEntitySet="AllotmentRoomTypes">
+          <ScalarProperty Name="IgnoreThisRoomType" ColumnName="IgnoreThisRoomType" />
+          <ScalarProperty Name="DefaultAllotment" ColumnName="DefaultAllotment" />
+          <ScalarProperty Name="HotelId" ColumnName="HotelId" />
+          <ScalarProperty Name="RoomName" ColumnName="RoomName" />
+          <ScalarProperty Name="RecordId" ColumnName="RecordId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContractRooms">
+      <EntityTypeMapping TypeName="PriceCheckerModel.ContractRoom">
+        <MappingFragment StoreEntitySet="ContractRooms">
+          <ScalarProperty Name="HotelId" ColumnName="HotelId" />
+          <ScalarProperty Name="RoomName" ColumnName="RoomName" />
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hotels">
+      <EntityTypeMapping TypeName="PriceCheckerModel.Hotel">
+        <MappingFragment StoreEntitySet="Hotels">
+          <ScalarProperty Name="MinCutOffDates" ColumnName="MinCutOffDates" />
+          <ScalarProperty Name="ContractValidFrom" ColumnName="ContractValidFrom" />
+          <ScalarProperty Name="ContractValidTo" ColumnName="ContractValidTo" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="StarRating" ColumnName="StarRating" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="CheckAllotment" ColumnName="CheckAllotment" />
+          <ScalarProperty Name="HMSID" ColumnName="HMSID" />
+          <ScalarProperty Name="IsDuplicated" ColumnName="IsDuplicated" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="HotelId" ColumnName="HotelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

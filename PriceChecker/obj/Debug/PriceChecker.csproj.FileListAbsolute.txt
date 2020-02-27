@@ -1,0 +1,156 @@
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe.config
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.pdb
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.dll
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.xml
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.Properties.Resources.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csproj.GenerateResource.Cache
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.exe
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.pdb
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmStringEditor.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.dll
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.Support.dll
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.xml
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.Support.xml
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmLabelNavigator.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmLabelEditor.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmActionEditor.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmActionList.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAddAction.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmShowData.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmHotelEditor.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmHotels.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmCities.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmCityEditor.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe.manifest
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.application
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.exe.manifest
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.application
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentHotels.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentRoomTypeEditor.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllotmentRoomTypes.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentCheckerMain.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmCloseDateReport.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmHotelCloseDateViewer.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllConfigs.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllotmentMain.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\CsvHelper.dll
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\CsvHelper.xml
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmStringViewer.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmRoomTypeReMatch.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csproj.CopyComplete
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmContractRoomEditor.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmLabelList.resources
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\System.ValueTuple.dll
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\bin\Debug\System.ValueTuple.xml
+C:\Users\Thuy Tran\Documents\AllDocs\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csprojAssemblyReference.cache
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe.config
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe.manifest
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.application
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.pdb
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\CsvHelper.dll
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.dll
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.dll
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\System.ValueTuple.dll
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.dll
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.Support.dll
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\CsvHelper.xml
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.xml
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.xml
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\System.ValueTuple.xml
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.xml
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.Support.xml
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csprojAssemblyReference.cache
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmActionEditor.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmActionList.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAddAction.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllConfigs.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentCheckerMain.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentHotels.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllotmentMain.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmCloseDateReport.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmContractRoomEditor.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmHotelCloseDateViewer.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentRoomTypeEditor.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllotmentRoomTypes.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmCities.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmCityEditor.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmHotelEditor.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmHotels.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmLabelEditor.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmLabelList.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmLabelNavigator.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmRoomTypeReMatch.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmShowData.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmStringEditor.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmStringViewer.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.Properties.Resources.resources
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csproj.GenerateResource.cache
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.exe.manifest
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.application
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csproj.CopyComplete
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.exe
+C:\Users\dearf\OneDrive\Documents\MyDoc\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.pdb
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe.config
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe.manifest
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.application
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.exe
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\PriceChecker.pdb
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\CsvHelper.dll
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.dll
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.SqlServer.dll
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.dll
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\SeleniumExtras.WaitHelpers.dll
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\System.ValueTuple.dll
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.dll
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.Support.dll
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\CsvHelper.xml
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.xml
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\EntityFramework.SqlServer.xml
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.pdb
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\HtmlAgilityPack.xml
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\System.ValueTuple.xml
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.xml
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\bin\Debug\WebDriver.Support.xml
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csprojAssemblyReference.cache
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmActionEditor.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmActionList.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAddAction.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllConfigs.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentCheckerMain.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentHotels.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllotmentMain.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmCloseDateReport.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmContractRoomEditor.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmHotelCloseDateViewer.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmAllotmentRoomTypeEditor.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmAllotmentRoomTypes.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmCities.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmCityEditor.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmHotelEditor.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmHotels.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmLabelEditor.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmLabelList.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmLabelNavigator.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmRoomTypeReMatch.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmShowData.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.FrmStringEditor.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.frmStringViewer.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.Properties.Resources.resources
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csproj.GenerateResource.cache
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.exe.manifest
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.application
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.csproj.CopyComplete
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.exe
+C:\Data\VSApplications\VSApplications\PriceChecker\PriceChecker\obj\Debug\PriceChecker.pdb
